@@ -1,0 +1,1 @@
+docker run --name shop-pg-13.3 -p 5432:5432 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=pswd -e POSTGRES_DB=shop -d postgres:13.3
